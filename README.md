@@ -142,21 +142,27 @@ The application is designed to be simple, efficient, and easy to use, with a cle
 Here are some visual representations of your project:
 
 1. **Home Page**:
-   ![Home Page]()
+   ![Home Page](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111436/homepage_pcjsyf.png)
    - Displays the total number of users.
 
 2. **All Users Page**:
-   ![All Users Page]()
-   - Displays a table of users with **Edit** and **Delete** options.
+   ![All Users Page](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111380/all_users_ehhfne.png)
+   - Displays a table of users with **Edit username** and **Delete user** options.
+   
 
 3. **Add New User Form**:
-   ![Add New User Form]()
+   ![Add New User Form](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111395/add_new_user_oc0pie.png)
    - A form to input user details.
 
 4. **Edit User Form**:
-   ![Edit User Form](https://via.placeholder.com/800x400.png?text=Edit+User+Form)
+   ![Edit User Form](![Edit username](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111423/edit_username_xvjx3m.png))
    - Prefilled form to update user information.
+5.  **Delete User**:
+     -![Delete user](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111473/delete_user_vdmaez.png)
+    Requires authentication (password verification) before permanently deleting the user from the database.
+    <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111473/delete_user_vdmaez.png" alt="Delete User" width="300">
 
+   
 ---
 
 ### Future Enhancements Clarifications  
