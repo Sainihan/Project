@@ -44,9 +44,9 @@ The application is designed to be simple, efficient, and easy to use, with a cle
 
 
 **Backend**:
-![EJS Badge](https://img.shields.io/badge/EJS-%3E%20Templating-green)
 ![Node.js Badge](https://img.shields.io/badge/Node.js-%3E%20JavaScript-brightgreen)
 ![Express Badge](https://img.shields.io/badge/Express-%3E%20Web%20Framework-blue)
+![EJS Badge](https://img.shields.io/badge/EJS-%3E%20Templating-green)
 
 **Database**:
 ![MySQL Badge](https://img.shields.io/badge/MySQL-%3E%20Database-blue)
