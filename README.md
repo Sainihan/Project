@@ -146,11 +146,11 @@ Here are some visual representations of your project:
    - Displays the total number of users.
 
 2. **All Users Page**:
-   ![All Users Page](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1711868710/WhatsApp_Image_2024-03-31_at_12.24.14_PM_nuyugc.jpg)
+   ![All Users Page]()
    - Displays a table of users with **Edit** and **Delete** options.
 
 3. **Add New User Form**:
-   ![Add New User Form](https://res.cloudinary.com/dpqcrz7mo/image/upload/v1711868710/WhatsApp_Image_2024-03-31_at_12.24.14_PM_nuyugc.jpg)
+   ![Add New User Form]()
    - A form to input user details.
 
 4. **Edit User Form**:
