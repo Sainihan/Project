@@ -1,5 +1,5 @@
 # Project
-User Management System
+**User Management System**
 
 ### Overview
 This project is a **User Management System** built using **Node.js**, **Express**, **MySQL**, and **EJS** for server-side rendering. It allows you to perform basic **CRUD (Create, Read, Update, Delete)** operations on user data. The system includes:
