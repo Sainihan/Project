@@ -155,14 +155,14 @@ Displays a table of users with **Edit username** and **Delete user** options.
 
 
 ### ➕ Add New User Form  
-A form to input user details.  
+A form to input username details.   
 <div align="center">
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111395/add_new_user_oc0pie.png" alt="Add New User Form" width="600">
 </div>  
 
 
 ### ✏️ Edit User Form  
-Prefilled form to update user information.  
+Prefilled form to update user information Authentication is required for updating the username.  
 <div align="center">
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111423/edit_username_xvjx3m.png" alt="Edit User Form" width="600">
 </div>  
@@ -172,10 +172,9 @@ Prefilled form to update user information.
 Requires authentication (password verification) before permanently deleting the user from the database.  
 <div align="center">
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111473/delete_user_vdmaez.png" alt="Delete User" width="600">
-</div>  
+</div>
 
  ---
-
 ### Future Enhancements Clarifications  
 
 1. **User Authentication**  
