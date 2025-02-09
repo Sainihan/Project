@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete The user</title>
+  </head>
+  <body>
+    <h3>Delete this your of email : <%=user.email%></h3>
+    <h4>Enter password :</h4>
+    <form method="post" action="/user/<%=user.id%>?_method=DELETE">
+      <input type="password" name="password" placeholder=" Enter password" />
+    </form>
+  </body>
+</html> -->
+
+<!--  chatgpt from my code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete The User</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      /* Container for the form */
+      .container {
+        background-color: #fff;
+        padding: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+      }
+
+      /* Heading Styles */
+      h3 {
+        font-size: 20px;
+        color: #262626;
+        margin-bottom: 10px;
+        text-align: left;
+        font-weight: 600;
+      }
+
+      h4 {
+        font-size: 16px;
+        color: #8e8e8e;
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: 400;
+      }
+
+      /* Input Field Styles */
+      input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 14px;
+        box-sizing: border-box;
+        outline: none;
+        transition: border-color 0.3s ease;
+      }
+
+      input[type="password"]:focus {
+        border-color: #0095f6;
+      }
+
+      /* Button Styles */
+      button {
+        background-color: #ed4956; /* Instagram-like red for delete actions */
+        color: #fff;
+        border: none;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #d83a45; /* Darker red on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>
+        Delete this user of email:
+        <span style="color: #ed4956"><%=user.email%></span>
+      </h3>
+      <h4>Enter password:</h4>
+      <form method="post" action="/user/<%=user.id%>?_method=DELETE">
+        <input type="password" name="password" placeholder="Enter password" />
+        <button type="submit">Delete User</button>
+      </form>
+    </div>
+  </body>
+</html>

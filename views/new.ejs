@@ -1,0 +1,113 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New user</title>
+  </head>
+  <body>
+    <form method="post" action="/user/new">
+      <input type="email" name="email" placeholder=" Enter email" /><br />
+      <input
+        type="username"
+        name="username"
+        placeholder=" Enter Username"
+      /><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter password"
+      /><br />
+      <button>submit</button>
+    </form>
+  </body>
+</html> -->
+
+<!-- new coe with styling  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New User</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        background-color: #fff;
+        padding: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 24px;
+        color: #262626;
+        margin-bottom: 20px;
+      }
+      input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 14px;
+        box-sizing: border-box;
+        outline: none;
+      }
+      input:focus {
+        border-color: #0095f6;
+      }
+      button {
+        background-color: #0095f6;
+        color: #fff;
+        border: none;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #0081e6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Add New User</h2>
+      <form method="post" action="/user/new">
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter email"
+          required
+        /><br />
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter Username"
+          required
+        /><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!-- this is my original code 
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit the username</title>
+  </head>
+  <body>
+    <h2>You are about to edit the username of : <%=user.email%></h2>
+    <form method="post" action="/user/<%=user.id%>?_method=PATCH">
+      <label for="username">New Username:</label>
+      <textarea type="username" name="username"> <%=user.username%></textarea>
+      ><br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder=" Enter password" />
+      <br />
+      <button>Edit</button>
+    </form>
+  </body>
+</html>
+   I need some styling for this like a Instagram page -->
+<!-- chatgpt gave this  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit the username</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #dbdbdb;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 18px;
+        color: #262626;
+        margin-bottom: 20px;
+        text-align: left;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        margin-top: 0;
+      }
+      label {
+        display: block;
+        font-size: 14px;
+        color: #262626;
+        margin-bottom: 5px;
+        text-align: left;
+      }
+      textarea,
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #dbdbdb;
+        border-radius: 5px;
+        font-size: 14px;
+        box-sizing: border-box;
+      }
+      textarea {
+        resize: none;
+        height: 80px;
+      }
+      button {
+        background-color: #0095f6;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0081e6;
+      }
+
+      /* anchor tag styling */
+      .Back-a {
+        display: inline-block; /* Keeps it inline but allows margin/padding */
+        margin-top: 20px; /* Adds space above the link */
+        color: rgb(0, 94, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        You are about to edit the username of:
+        <span style="color: #0095f6"><%= user.email %></span>
+      </h2>
+      <form method="post" action="/user/<%=user.id%>?_method=PATCH">
+        <label for="username">New Username:</label>
+        <textarea type="username" name="username"> <%=user.username%></textarea>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder=" Enter password" />
+        <br />
+        <button>Edit</button>
+        <a href="http://localhost:8080/user" class="Back-a"> Back </a>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+table td,
+table th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold; /* Makes text bold */
+}
+
+table {
+  border: 1px solid black; /* Border for the entire table */
+}
+
+table th {
+  background-color: pink;
+}
+
+table td {
+  background-color: rgb(135, 130, 130);
+}
+
+/* General Button Styles */
+button {
+  color: #fff; /* Ensuring white text */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Edit Button (Blue) */
+.edit-button {
+  background-color: #0095f6;
+}
+
+.edit-button:hover {
+  background-color: #0081e6;
+  transform: scale(1.05);
+}
+
+/* Delete Button (Red) */
+.delete-button {
+  background-color: #ed4956;
+}
+
+.delete-button:hover {
+  background-color: #d83a45;
+  transform: scale(1.05);
+}
+
+/*  show.ejs navigation links */
+/* Style for the navigation links */
+
+/* Ensures uniform font size and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  display: block;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+/* Flexbox for aligning header and navigation */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between; /* Aligns the content to both sides */
+  align-items: center; /* Aligns the items vertically */
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px; /* Space between the links */
+}
+
+.nav-links a:hover {
+  color: #ffef09;
+}
+
+.home-link {
+  /*  display: inline-block; */
+  background-color: rgb(135, 130, 130);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.create-account-link {
+  background-color: rgb(135, 130, 130);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All users</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Wrapper for header and nav links -->
+    <div class="header-wrapper">
+      <h2>All users</h2>
+      <div class="nav-links">
+        <a href="http://localhost:8080" class="home-link">Home</a>
+        <a href="http://localhost:8080/user/new" class="create-account-link"
+          >Create New Account</a
+        >
+      </div>
+    </div>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th colspan="2">Actions</th>
+        <!-- Spans two columns -->
+      </tr>
+
+      <%for(user of users){ %>
+      <tr>
+        <td><%= user.id %></td>
+        <td><%= user.username %></td>
+        <td><%= user.email %></td>
+        <td>
+          <form method="get" action="/user/<%=user.id%>/edit">
+            <button class="edit-button">Edit username</button>
+          </form>
+        </td>
+        <td>
+          <form method="get" action="/user/<%=user.id%>/delete">
+            <button class="delete-button">Delete</button>
+          </form>
+        </td>
+      </tr>
+      <%}%>
+    </table>
+  </body>
+</html>
