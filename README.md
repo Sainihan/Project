@@ -191,6 +191,7 @@ Requires authentication (password verification) before permanently deleting the 
    - Ensure buttons, forms, and tables are adjusted properly to different screen sizes.  
 
 ### Repository Structure
+```
 user-management-system/
 ├── views/
 │   ├── home.ejs       # Home page (displays total number of users)
@@ -204,6 +205,7 @@ user-management-system/
 ├── index.js           # Main server file
 ├── package.json       # Project dependencies
 └── README.md          # Project documentation
+```
 
 
 ---
