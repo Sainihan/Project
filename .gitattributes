@@ -1,2 +1,3 @@
 *.ejs linguist-language=HTML
-*.sql linguist-language=SQL
+*.sql linguist-detectable=true
+
