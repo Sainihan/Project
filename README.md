@@ -141,15 +141,11 @@ The application is designed to be simple, efficient, and easy to use, with a cle
 ## 📸 Screenshots  
 Here are some visual representations of your project:  
 
----
-
 ### 🏠 Home Page  
 Displays the total number of users.  
 <div align="center">
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111436/homepage_pcjsyf.png" alt="Home Page" width="600">
 </div>  
-
----
 
 ### 👥 All Users Page  
 Displays a table of users with **Edit username** and **Delete user** options.  
@@ -157,7 +153,6 @@ Displays a table of users with **Edit username** and **Delete user** options.
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111380/all_users_ehhfne.png" alt="All Users Page" width="600">
 </div>  
 
----
 
 ### ➕ Add New User Form  
 A form to input user details.  
@@ -165,7 +160,6 @@ A form to input user details.
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111395/add_new_user_oc0pie.png" alt="Add New User Form" width="600">
 </div>  
 
----
 
 ### ✏️ Edit User Form  
 Prefilled form to update user information.  
@@ -173,7 +167,6 @@ Prefilled form to update user information.
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111423/edit_username_xvjx3m.png" alt="Edit User Form" width="600">
 </div>  
 
----
 
 ### ❌ Delete User  
 Requires authentication (password verification) before permanently deleting the user from the database.  
@@ -181,9 +174,7 @@ Requires authentication (password verification) before permanently deleting the 
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111473/delete_user_vdmaez.png" alt="Delete User" width="600">
 </div>  
 
-
-   
----
+ ---
 
 ### Future Enhancements Clarifications  
 
@@ -201,7 +192,6 @@ Requires authentication (password verification) before permanently deleting the 
    - Ensure buttons, forms, and tables are adjusted properly to different screen sizes.  
 
 ### Repository Structure
-```
 user-management-system/
 ├── views/
 │   ├── home.ejs       # Home page (displays total number of users)
@@ -215,8 +205,6 @@ user-management-system/
 ├── index.js           # Main server file
 ├── package.json       # Project dependencies
 └── README.md          # Project documentation
-```
-
 
 ---
 
