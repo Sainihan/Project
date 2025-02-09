@@ -2,7 +2,10 @@
 **User Management System**
 
 ### Overview
-This project is a **User Management System** built using **Node.js**, **Express**, **MySQL**, and **EJS** for server-side rendering. It allows you to perform basic **CRUD (Create, Read, Update, Delete)** operations on user data. The system includes:
+This project is a **User Management System** built using ![Node.js Badge](https://img.shields.io/badge/Node.js-%3E%20JavaScript-brightgreen),![Express Badge](https://img.shields.io/badge/Express-%3E%20Web%20Framework-blue),
+![MySQL Badge](https://img.shields.io/badge/MySQL-%3E%20Database-blue)
+, and![EJS Badge](https://img.shields.io/badge/EJS-%3E%20Templating-green)
+ for server-side rendering. It allows you to perform basic **CRUD (Create, Read, Update, Delete)** operations on user data. The system includes:
 - A form to **add new users**.
 - A table to **display all users**.
 - Options to **edit** or **delete** user information.
@@ -35,15 +38,17 @@ The application is designed to be simple, efficient, and easy to use, with a cle
 ---
 
 ### Technologies Used
-- **Frontend**:
-  - HTML
-  - CSS
-  - EJS (Embedded JavaScript Templating)
-- **Backend**:
-  - Node.js
-  - Express.js
-- **Database**:
-  - MySQL
+**Frontend**:
+![HTML Badge](https://img.shields.io/badge/HTML-%3E%20Markup-orange)
+![CSS Badge](https://img.shields.io/badge/CSS-%3E%20Stylesheet-blue)
+![EJS Badge](https://img.shields.io/badge/EJS-%3E%20Templating-green)
+
+**Backend**:
+![Node.js Badge](https://img.shields.io/badge/Node.js-%3E%20JavaScript-brightgreen)
+![Express Badge](https://img.shields.io/badge/Express-%3E%20Web%20Framework-blue)
+
+**Database**:
+![MySQL Badge](https://img.shields.io/badge/MySQL-%3E%20Database-blue)
 - **Additional Libraries**:
   - `faker.js` for generating fake user data.
   - `uuid` for generating unique IDs.
