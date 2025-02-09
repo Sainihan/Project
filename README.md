@@ -154,7 +154,7 @@ Displays a table of users with **Edit username** and **Delete user** options.
 </div>  
 
 
-### ➕ Add New User Form  
+### ➕ Create New Account 
 A form to input username details.   
 <div align="center">
     <img src="https://res.cloudinary.com/dpqcrz7mo/image/upload/v1739111395/add_new_user_oc0pie.png" alt="Add New User Form" width="600">
